@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: orbsalarm
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: DISCORD_GUILD_ID
+        sync: false
