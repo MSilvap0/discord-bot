@@ -1,9 +1,0 @@
-{
-  "name": "discord-bot-reminder",
-  "private": true,
-  "scripts": {
-    "dev": "./run-bot.sh",
-    "build": "mvn package",
-    "start": "./run-bot.sh"
-  }
-}
